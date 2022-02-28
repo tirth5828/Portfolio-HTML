@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -13,36 +14,42 @@
         <h2>You can contact me at</h2>
         <table cellspacing="20">
             <td>
-                <p>A-6/12 Alok 5, Vastral, Ahmedabad,<br> Gujarat, India <br> 382418 </p>
-                <p><a href="mailto:tirth5828@gmail.com">
-            tirth5828@gmail.com
-        </a> </p> <br>
+                <center>
+                    <p>A-6/12 Alok 5, Vastral, Ahmedabad,<br> Gujarat, India <br> 382418 </p>
+                    <p>
+                        <a href="mailto:tirth5828@gmail.com">
+                            tirth5828@gmail.com
+                        </a>
+                    </p>
+                </center>
 
-                <table>
+                <br>
+
+                <table cellspacing="10px">
                     <tr>
                         <td>
                             <a href="https://www.linkedin.com/in/tirth5828">
-                                <img src="images/linkedin.png" alt="LinkedIn" width="50" height="50">
+                                <img class="social" src="images/linkedin.png" alt="LinkedIn" width="50" height="50">
                             </a>
                         </td>
                         <td>
                             <a href="https://github.com/tirth5828">
-                                <img src="images/github.png" alt="Github" width="50" height="50">
+                                <img class="social" src="images/github.png" alt="Github" width="50" height="50">
                             </a>
                         </td>
                         <td>
                             <a href="https://www.codechef.com/users/tirth5828">
-                                <img src="images/codechef.png" alt="Codechef" width="50" height="50">
+                                <img class="social" src="images/codechef.png" alt="Codechef" width="50" height="50">
                             </a>
                         </td>
                         <td>
                             <a href="https://codeforces.com/profile/tirth5828">
-                                <img src="images/codeforces.png" alt="Codeforces" width="50" height="50">
+                                <img class="social" src="images/codeforces.png" alt="Codeforces" width="50" height="50">
                             </a>
                         </td>
                         <td>
                             <a href="https://www.instagram.com/mr__google">
-                                <img src="images/instagram.png" alt="Instagram" width="50" height="50">
+                                <img class="social" src="images/instagram.png" alt="Instagram" width="50" height="50">
                             </a>
                         </td>
                     </tr>
@@ -53,20 +60,32 @@
 
                 <form action="mailto:tirth5828@gmail.com" method="post" enctype="text/plain">
                     <table>
-                        <td>
-                            <label>Your Name:</label>
-                            <br>
-                            <label>Your Email ID:</label>
-                            <br>
-                            <label>Your Message:</label>
-                        </td>
-                        <td>
-                            <input type="text" name="name" placeholder="Your Name" required>
-                            <br>
-                            <input type="email" email " name="email " placeholder="Your Email " required>
-                            <br>
-                            <textarea name="message " placeholder="Your Message " rows="1 " required></textarea>
-                        </td>
+                        <tr>
+                            <td>
+                                <label>Your Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                <label>Your Email ID:</label>
+                            </td>
+                            <td>
+                                <input type="email" email " name="email " placeholder="Your Email " required>
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                <label >Your Message:</label>
+                            </td>
+                            <td>
+                                <textarea name="message " placeholder="Your Message " rows="1 " required></textarea>
+                            </td>
+                        </tr>
                 </table>
             </form>
         </td>
